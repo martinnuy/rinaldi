@@ -1,0 +1,26 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+.carouselEdit{
+    max-height: 500px;
+}
+
+.contenedorNav{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    z-index: 900;
+    
+}
+
+.carouselFotos{
+    position: relative;
+    top: -170px;
+}
+
+.logoContainer{
+    background-color: rgba(255, 0, 0, 0.61);
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%)
+}
