@@ -24,3 +24,17 @@
     background-color: rgba(255, 0, 0, 0.61);
     clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%)
 }
+
+.carousel-caption{
+    top: 300px;
+}
+
+.carousel-caption h3{
+    font-size: 50px;
+    text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p{
+    font-size: 30px;
+    text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.8);
+}
