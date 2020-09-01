@@ -15,6 +15,10 @@
     
 }
 
+.navAnimation{
+    animation: fadeIn 2s;
+}
+
 .carouselFotos{
     position: relative;
     top: -170px;
@@ -22,7 +26,9 @@
 
 .logoContainer{
     background-color: rgba(255, 0, 0, 0.61);
-    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%)
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+    
+    animation: fadeIn 2s;
 }
 
 .carousel-caption{
@@ -38,3 +44,14 @@
     font-size: 30px;
     text-shadow: 2px 0px 5px rgba(0, 0, 0, 0.8);
 }
+
+@keyframes fadeIn{
+    from{
+      
+      transform: translate(0px, -100px);
+    }
+    to{
+      
+      transform: translate(0px, 0px);
+    }
+  }
