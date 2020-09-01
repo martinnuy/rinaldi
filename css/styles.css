@@ -49,6 +49,10 @@
     animation: lateral 2s;
 }
 
+.profesionalService h2{
+    font-size: 40px;
+}
+
 @keyframes fadeIn{
     from{
       
